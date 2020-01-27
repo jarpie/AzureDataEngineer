@@ -1,0 +1,2 @@
+Location,resourceGroupName,serverName,databaseName
+westeurope,ADE-RG-WEEK-2,ade-sql1,master-db
