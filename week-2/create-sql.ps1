@@ -70,4 +70,4 @@ $databasegeo = Get-AzureRmSqlDatabase -DatabaseName $databaseName -ResourceGroup
 $databasegeo | New-AzureRmSqlDatabaseSecondary -PartnerResourceGroupName $resourceGroupName -PartnerServerName $serverNameReplica -AllowConnections "All"
 
 # Clean up deployment 
-# Remove-AzResourceGroup -ResourceGroupName $resourceGroupName
+# Remove-AzureRmResourceGroup -ResourceGroupName $resourceGroupName -Force
